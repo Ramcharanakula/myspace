@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>Bank</display-name>
+  <welcome-file-list>
+    <welcome-file>Entry.html</welcome-file>
+    
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>Empreg</display-name>
+    <servlet-name>Empreg</servlet-name>
+    <servlet-class>com.reg.Empreg</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Empreg</servlet-name>
+    <url-pattern>/Entry</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>Emplogin</display-name>
+    <servlet-name>Emplogin</servlet-name>
+    <servlet-class>com.reg.Emplogin</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Emplogin</servlet-name>
+    <url-pattern>/check</url-pattern>
+  </servlet-mapping>
+</web-app>
